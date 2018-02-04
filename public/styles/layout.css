@@ -15,11 +15,25 @@ html {
  */
 
 body {
-  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-column-gap: 1px;
+  background-color: black;
+  margin: 2em;
   color: #244751;
-  background-color: #eee;
+  background-color: rgb(238, 238, 238);
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+main {
+  width: 450px;
+  margin: auto;
+  bottom: 0;
+  padding-top: 140px;
+  background-color: white;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+}
+

@@ -20,7 +20,7 @@ module.exports = function(DataHelpers) {
   tweetsRoutes.post("/", function(req, res) {
     if (!req.body.text) {
       res.status(400).json({ error: 'invalid request: no data in POST body'});
-      return;
+     return; 
     }
 
     const user = req.body.user ? req.body.user : userHelper.generateRandomUser();
