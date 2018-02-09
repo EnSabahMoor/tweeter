@@ -15,7 +15,6 @@ html {
  */
 
 body {
-  display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-column-gap: 1px;
   background-color: black;
@@ -34,6 +33,6 @@ main {
 }
 
 .container {
-  height: 100vh;
+  height: 500vh;
 }
 
