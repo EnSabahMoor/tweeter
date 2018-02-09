@@ -3,14 +3,21 @@
     background: white;
     border: 20px;
     border-color: #c6c6e0;
-    border-radius: 5px;
+    opacity: 0.8;
+}
+
+#timeline:hover {
+    opacity: 1;
+}
+
+#timeline:hover .icons {
+    opacity: 1;
 }
 
 header {
     display: inline-block;
     background: rgb(198, 198, 224);
     width: 100%;
-    border-radius: 5px;
 }
 
 .avi {
@@ -32,9 +39,10 @@ header {
     display: block;
     width: 100%;
     background-color: white;
-    border-color: #c6c6e0;
     width: 90%;
     margin: 0 auto;
+    min-height: 80px;
+    padding: 15px;
 }
 
 
@@ -53,11 +61,25 @@ header {
     justify-content: space-between;
     margin-bottom: 20px;
     border: 1px solid rgb(198, 198, 224);
-    border-radius: 10px;
+    border-radius: 5px;
 }
+
 
 .tlfooter {
     display: block;
     background-color: white;
     float: left;
+    padding: 5px;
+    border-top: 1px solid rgb(198, 198, 224);
+}
+
+.tlfooter:hover {
+}
+
+.icons {
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+    padding: 5px;
+    opacity: 0.0;
 }

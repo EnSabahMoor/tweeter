@@ -4,8 +4,9 @@ h1 {
   margin: 5px;
 }
 
-h2 {
-  text-align: left;
+.new-tweet {
+  padding: 15px;
+  border-bottom: 2px solid darkgray;
 }
 
 section {
@@ -15,26 +16,24 @@ section {
   border-radius: 5px;
   }
 
+  .compose {
+    border-bottom: 2px solid black;
+  }
+
   .tweetfooter {
-    text-align: right;
+    padding-top: 15px;
   }
 
   .counter {
-    text-align: right;
-    display: inline;
+    padding-left: 68%
   }
 
   .text {
     display: block;
     width: 100%;
+    min-height: 80px;
   }
 
   .tweetbtn {
-    margin-top: 1em;
-    display: inline;
-  }
 
-  .tweetbox {
-    margin: 0 auto;
-    width: 90%
   }

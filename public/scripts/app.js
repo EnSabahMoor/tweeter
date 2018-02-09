@@ -37,7 +37,15 @@ $(document).ready(function () {
         <span class="atname">${tweet.user.handle}<span>
       </header>
      <div class="tlbody">${tweet.content.text}</div>
-     <div class="tlfooter">${tweet.created_at}</div>
+     <div class="tlfooter">${tweet.created_at}
+     <div class="icons">
+     <i class="fa fa-flag" aria-hidden="true"></i>
+     <i class="fa fa-retweet" aria-hidden="true"></i>
+     <i class="fa fa-heart" aria-hidden="true"></i> 
+     </div>    
+     </div>
+     
+
     </article>`)
     });
   }
